@@ -12,17 +12,31 @@ public class Calculator {
         int four = 4;
         int five = 5;
         int six = 6;
-        int onePlusTwo = one + two;
-        System.out.println(onePlusTwo);
+        int result = one + two;
+        System.out.println("result= " + result);
+        one = 10;
+        two = 11;
+        result = one + two;
+        System.out.println("result= " + result);
+
 
         int sixDivTwo = six / two;
         int fiveMinusTwo = five - two;
         int fourTimeTwo = four * two;
 
-        System.out.println(sixDivTwo);
-        System.out.println(fiveMinusTwo);
-        System.out.println(fourTimeTwo);
+        System.out.println("sixDivTwo= " + sixDivTwo);
+        System.out.println("fiveMinusTwo= " + fiveMinusTwo);
+        System.out.println("fourTimeTwo= " + fourTimeTwo);
+
+        int age = 18;
+        age = age + 10;
+        System.out.println("age= " + age);
 
 
+        int size = 10;
+        size = 100;
+        size = size - five;
+        System.out.println("size= " + size);
     }
+
 }
