@@ -9,6 +9,11 @@ public class Conveter {
         double euro = Conveter.rubleToEuro(140);
         System.out.println("140 rubles are " + euro + " euro. " + dollar + " dollar. ");
 
+        double in = 140;
+        int expected = 2;
+        double out = rubleToEuro(in);
+        boolean passed = expected == out;
+        System.out.println("140 rubles are 2. Test result : " + passed);
     }
 
     public static double rubleToEuro(double value) {
