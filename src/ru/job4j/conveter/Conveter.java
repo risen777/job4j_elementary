@@ -10,10 +10,15 @@ public class Conveter {
         System.out.println("140 rubles are " + euro + " euro. " + dollar + " dollar. ");
 
         double in = 140;
-        int expected = 2;
+        double expected = 2;
         double out = rubleToEuro(in);
         boolean passed = expected == out;
-        System.out.println("140 rubles are 2. Test result : " + passed);
+        System.out.println("140 rubles are 2 euro. Test result : " + passed);
+
+        out = rubleToDollar(in);
+        expected = 2.33;
+        passed = expected == out;
+        System.out.println("140 rubles are 2.33 dollar. Test result : " + passed);
     }
 
     public static double rubleToEuro(double value) {
