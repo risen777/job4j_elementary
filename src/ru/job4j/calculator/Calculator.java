@@ -37,6 +37,15 @@ public class Calculator {
         size = 100;
         size = size - five;
         System.out.println("size= " + size);
+
+        Calculator.plus(100,500);
+        Calculator.plus(4,2);
+        Calculator.plus(3,5);
+    }
+
+    public static void plus(int first,int second){
+        int result=first+second;
+        System.out.println("result= " + result);
     }
 
 }
