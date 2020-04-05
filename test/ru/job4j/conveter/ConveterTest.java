@@ -8,7 +8,7 @@ import org.junit.Assert;
  * Created by Sergey
  */
 public class ConveterTest {
-    private static final double DELTA = 1e-15;
+
 
 
     @Test
@@ -17,7 +17,7 @@ public class ConveterTest {
         double expected = 2.57;
 
         double out = Conveter.rubleToEuro(in);
-        Assert.assertEquals(expected, out, DELTA);
+        Assert.assertEquals(expected, out, 0.01);
     }
     @Test
     public void whenConvert0RblThen0Euro() {
@@ -25,7 +25,7 @@ public class ConveterTest {
         double expected = 0;
 
         double out = Conveter.rubleToEuro(in);
-        Assert.assertEquals(expected, out, DELTA);
+        Assert.assertEquals(expected, out, 0.01);
     }
 
     @Test
@@ -34,6 +34,6 @@ public class ConveterTest {
         double expected = 3.0;
 
         double out = Conveter.rubleToDollar(in);
-        Assert.assertEquals(expected, out, DELTA);
+        Assert.assertEquals(expected, out, 0.01);
     }
 }

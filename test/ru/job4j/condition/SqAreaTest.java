@@ -11,13 +11,12 @@ public class SqAreaTest {
 
     @Test
     public void square() {
-        double delta = 0.01;
         int p = 6;
         int k = 2;
         double expected = 2.0;
 
         double actual = SqArea.square(p, k);
-        assertEquals(expected, actual, delta);
+        assertEquals(expected, actual, 0.01);
 
     }
 }
