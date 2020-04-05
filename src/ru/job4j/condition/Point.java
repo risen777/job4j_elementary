@@ -5,7 +5,7 @@ package ru.job4j.condition;
  */
 public class Point {
 
-    public static double distance(int x1, int y1, int x2, int y2) {
+    public static double distance(double x1, double y1, double x2, double y2) {
         double firstMinus = x2 - x1;
         double seconMinus = y2 - y1;
         double firstPow = Math.pow(firstMinus, 2);
