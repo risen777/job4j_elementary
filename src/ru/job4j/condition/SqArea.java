@@ -9,7 +9,7 @@ public class SqArea {
 
         int l = h * k;
 
-        int rsl = l * h;
+        double rsl = l * h;
 
 
         return rsl;
