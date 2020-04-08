@@ -1,7 +1,9 @@
 package ru.job4j.conveter;
 
 /**
- * Created by Sergey
+ * Класс - конвектор рубль-доллар/рубль-евро
+ *
+ * @author shumov
  */
 public class Conveter {
     public static void main(String[] args) {
@@ -21,6 +23,12 @@ public class Conveter {
         System.out.println("140 rubles are 2.33 dollar. Test result : " + passed);
     }
 
+
+    /**
+     * @param value
+     * @return rsl
+     * @author shumov
+     */
     public static double rubleToEuro(double value) {
 
         double rsl = value / 70;
@@ -29,7 +37,11 @@ public class Conveter {
 
     }
 
-
+    /**
+     * @param value
+     * @return rsl
+     * @author shumov
+     */
     public static double rubleToDollar(double value) {
 
         double rsl = value / 60;
