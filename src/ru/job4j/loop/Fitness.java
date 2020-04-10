@@ -11,9 +11,6 @@ public class Fitness {
             ivan = ivan * 3;
             nik = nik * 2;
             month++;
-            if (ivan > nik) {
-             break;
-            }
         }
 
 
