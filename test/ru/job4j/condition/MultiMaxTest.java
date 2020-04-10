@@ -34,7 +34,7 @@ public class MultiMaxTest {
     @Test
     public void whenAllMax() {
         MultiMax check = new MultiMax();
-        int result = check.max(4, 4, 1);
+        int result = check.max(4, 4, 4);
         assertThat(result, is(4));
     }
 }
