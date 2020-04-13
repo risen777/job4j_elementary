@@ -23,4 +23,18 @@ public class CheckTest {
         assertThat(result, is(false));
     }
 
+    @Test
+    public void whenDataInFinishFalse() {
+        boolean[] input = new boolean[]{true, true, false};
+        boolean result = Check.mono(input);
+        assertThat(result, is(false));
+    }
+
+    @Test
+    public void whenThreeTrueAndInFinishFalse() {
+        boolean[] input = new boolean[]{true, true, true, false};
+        boolean result = Check.mono(input);
+        assertThat(result, is(false));
+    }
+
 }
