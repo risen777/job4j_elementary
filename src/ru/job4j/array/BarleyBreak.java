@@ -4,6 +4,9 @@ package ru.job4j.array;
  * Created by Sergey
  */
 public class BarleyBreak {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         int[][] arr = new int[3][3];
         int k = 1;

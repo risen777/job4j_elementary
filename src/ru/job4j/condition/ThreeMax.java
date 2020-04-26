@@ -5,6 +5,12 @@ package ru.job4j.condition;
  */
 public class ThreeMax {
 
+    /**
+     * @param first
+     * @param second
+     * @param third
+     * @return
+     */
     public static int max(int first, int second, int third) {
         int result = first;
         if (second >= first && second >= third) {

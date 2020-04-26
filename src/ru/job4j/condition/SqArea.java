@@ -4,6 +4,11 @@ package ru.job4j.condition;
  * Created by Sergey
  */
 public class SqArea {
+    /**
+     * @param p
+     * @param k
+     * @return
+     */
     public static double square(int p, int k) {
         int h = p / (2 * (k + 1));
 
@@ -15,6 +20,9 @@ public class SqArea {
         return rsl;
     }
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         double result = SqArea.square(6, 2);
         System.out.println(" p = 6, k = 2, s = " + result);

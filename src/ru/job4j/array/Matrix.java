@@ -4,6 +4,10 @@ package ru.job4j.array;
  * Created by Sergey
  */
 public class Matrix {
+    /**
+     * @param size
+     * @return
+     */
     public static int[][] multiple(int size) {
         int[][] arr = new int[size][size];
         for (int i = 0; i < arr.length; i++) {

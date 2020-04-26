@@ -5,6 +5,9 @@ package ru.job4j.condition;
  * Created by Sergey
  */
 public class Greeting {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
 
 

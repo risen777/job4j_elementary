@@ -5,6 +5,10 @@ package ru.job4j.loop;
  */
 public class CheckPrimeNumber {
 
+    /**
+     * @param number
+     * @return
+     */
     public static boolean check(int number) {
         int i = 2;
         boolean prime = true;

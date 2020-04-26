@@ -5,6 +5,11 @@ package ru.job4j.loop;
  */
 public class Fitness {
 
+    /**
+     * @param ivan
+     * @param nik
+     * @return
+     */
     public static int calc(int ivan, int nik) {
         int month = 0;
         while (ivan < nik) {

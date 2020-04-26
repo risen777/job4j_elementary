@@ -6,6 +6,10 @@ package ru.job4j.array;
 public class SortSelected {
 
 
+    /**
+     * @param data
+     * @return
+     */
     public static int[] sort(int[] data) {
 
         for (int i = 0; i < data.length; i++) {

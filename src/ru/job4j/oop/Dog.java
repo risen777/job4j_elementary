@@ -1,7 +1,9 @@
 package ru.job4j.oop;
 
 /**
- * Created by Sergey
+ * Класс - Собачка
+ *
+ * @author shumov
  */
 public class Dog {
 

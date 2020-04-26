@@ -6,6 +6,9 @@ package ru.job4j.conveter;
  * @author shumov
  */
 public class Conveter {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         double dollar = Conveter.rubleToDollar(140);
         double euro = Conveter.rubleToEuro(140);
@@ -43,7 +46,6 @@ public class Conveter {
      * @author shumov
      */
     public static double rubleToDollar(double value) {
-
         double rsl = value / 60;
         rsl = Math.round(rsl * 100);
         return rsl / 100;

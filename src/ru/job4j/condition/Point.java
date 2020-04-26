@@ -5,6 +5,13 @@ package ru.job4j.condition;
  */
 public class Point {
 
+    /**
+     * @param x1
+     * @param y1
+     * @param x2
+     * @param y2
+     * @return
+     */
     public static double distance(double x1, double y1, double x2, double y2) {
         double firstMinus = x2 - x1;
         double seconMinus = y2 - y1;
@@ -17,6 +24,9 @@ public class Point {
 
     }
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         double result = Point.distance(0, 0, 2, 0);
         System.out.println("result (0, 0) to (2, 0)= " + result);

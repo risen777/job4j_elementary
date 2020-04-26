@@ -4,11 +4,14 @@ package ru.job4j.array;
  * Created by Sergey
  */
 public class Defragment {
+    /**
+     * @param array
+     * @return
+     */
     public static String[] compress(String[] array) {
         for (int index = 0; index < array.length - 1; index++) {
             if (array[index] == null) {
-                int point = index; // указатель, на не null ячейку.
-                //  boolean check = true;
+                int point = index;
                 while (point < array.length - 1) {
                     point++;
                     if (array[point] != null) {

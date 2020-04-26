@@ -4,6 +4,9 @@ package ru.job4j.array;
  * Created by Sergey
  */
 public class ArrayLoop {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         int[] numbers = new int[5];
 

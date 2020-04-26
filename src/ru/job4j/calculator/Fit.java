@@ -6,6 +6,9 @@ package ru.job4j.calculator;
 public class Fit {
 
 
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         double perfectManWeight = Fit.manWeight(177);
         double perfectWomanWeight = Fit.womanWeight(177);
